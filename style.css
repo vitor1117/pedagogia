@@ -1,0 +1,338 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    .a1{
+        height: 520px;
+    }
+    a:hover {
+        color: #ffffff;
+        text-decoration: none;
+        animation: flutuar 0.5s linear infinite;
+        text-shadow: 2px 2px 5px #ff6200;  
+        
+        
+    }
+    a:active {
+        color: #ff9100;
+        text-decoration: none;
+        transition: 0s linear;
+    }
+    @keyframes flutuar {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-5px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+
+    }
+        
+    
+     @keyframes girar{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+
+    }
+    
+    
+    span{
+        color: aliceblue;
+    
+        
+        
+        
+    
+    
+    }
+
+    @media screen and (max-width: 700px) {
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+
+
+        }
+
+        header nav  {
+            width: 100%;
+            justify-content: space-around;
+            
+        }
+
+        .con1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .con1 div {
+            min-width: 50%;
+            margin: auto;
+            flex-wrap: wrap;
+
+        }
+
+        .con1 div img {
+            width: 250px;
+            height: 250px;
+            margin: auto;
+
+
+        }
+
+        .con2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .con2 div {
+            min-width: 50%;
+            margin: auto;
+            flex-wrap: wrap;
+
+        }
+
+        .con2 div img {
+            width: 250px;
+            height: 250px;
+            margin: auto;
+
+
+
+        }
+    }
+
+    body {
+        background-image: url(fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+    }
+
+    header {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.174);
+        overflow: hidden;
+
+
+
+        justify-content: left;
+        align-items: end;
+    }
+
+    header img {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+        animation: girar 5s linear infinite;
+        
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin: 10px;
+        width: 100%;
+        color: #FF4D00;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 10px;
+        justify-content: end;
+        align-items: end;
+
+        width: 50%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #FF4D00;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        transition: 0.3s linear;
+    }
+
+    .con1 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+
+
+    }
+
+    .con1 p {
+        font-size: 20px;
+        line-height: 2em;
+        color: #FF4D00;
+        font-family: "Lobster Two", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .con1 img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .con1 div {
+        width: 50%;
+        padding: 30px;
+        margin: auto;
+
+
+        display: flex;
+
+    }
+
+    .con2 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .con2 p {
+        font-size: 20px;
+        color: #FF4D00;
+        font-family: "Lobster Two", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    .con2 img {
+        width: 350px;
+        height: 350px;
+
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .con2 div {
+        width: 50%;
+        padding: 30px;
+
+        display: flex;
+
+    }
+    h2{
+        font-size: 40px;
+        margin: 10px;
+        margin-top: 80px;
+        width: 100%;
+        color: #FF4D00;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        text-shadow: 3px 3px 8px #ff7300a4;
+    }
+    .atividades{
+        display: flex;
+        flex-wrap:wrap ;
+        gap: 90px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;   
+        width: 250px;
+    }
+    .atividades p {
+        font-size: 20px;
+        line-height: 2em;
+        color: #FF4D00;
+        font-family: "Lobster Two", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    .feedback{
+        margin: auto;
+        display: flex;
+        
+        width: 70%;
+    
+    }
+    #faleconosco{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin: 30px auto;
+         font-family:  "Lobster Two"; 
+         font-weight: 400;
+         font-style: normal;
+         color: #FF4D00;
+         text-shadow: 1px 1px 10px #ff7300a4 , 1px 1px 10px #ff7300a4;
+
+    }
+    .footer{
+        width: 70%;
+        display: flex;
+        margin: auto;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        font-family:  "Lobster Two"; 
+         font-weight: 400;
+         font-style: normal;
+         color: #FF4D00;
+         text-shadow: 1px 1px 10px #ff7300a4 , 1px 1px 10px #ff7300a4;
+         background-color: rgba(0, 0, 0, 0.174);
+         
+         font-size: 20px;
+    }
+    footer a {
+        text-decoration: none;
+        color: #FF4D00;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        transition: 0.3s linear;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+    }
+    
